@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a1"
+    tools:context="com.contentprovide.liuliu.disu.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始游戏"
+        android:layout_marginLeft="50px"
+        />
+
+    <TextView
+        android:id="@+id/all_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:layout_toRightOf="@id/start_btn"
+        android:layout_marginLeft="100px"
+        />
+
+    <TextView
+        android:id="@+id/count_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_toRightOf="@id/all_time"
+        android:layout_marginLeft="100px"
+        />
+
+<com.contentprovide.liuliu.disu.disu
+    android:id="@+id/di"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+
+
+
+
+</RelativeLayout>
